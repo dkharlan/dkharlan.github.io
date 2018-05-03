@@ -1,0 +1,27 @@
+.content {
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    width: 75vw;
+}
+
+.bio {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.portfolio-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-container {
+    font-size: 10em;
+    flex: 1 1 auto;
+}
+
+.icon-container > a {
+    color: initial;
+    text-decoration: initial;
+}
+
