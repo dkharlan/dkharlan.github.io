@@ -1,9 +1,22 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.intro, .content {
+    text-align: center;
+}
+
+.intro {
+    background-color: #0050d1;
+    color: #d4d4d4;
+    padding: 1px;
+}
+
 .content {
     margin: 0 auto;
-    padding-top: 30px;
-    text-align: center;
+    padding-top: 20px;
     width: 75vw;
-    font-family: "Open Sans", sans-serif;
 }
 
 .bio {
