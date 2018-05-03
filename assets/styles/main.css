@@ -15,9 +15,28 @@
     flex-direction: row;
 }
 
-.icon-container {
-    font-size: 10em;
+.icon-container { 
     flex: 1 1 auto;
+}
+
+@media only screen and (min-width: 620px) {
+    .portfolio-links {
+        flex-direction: row;
+    }
+
+    .icon-container {
+        font-size: 10em;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .portfolio-links {
+        flex-direction: column;
+    }
+
+    .icon-container {
+        font-size: 8em;
+    }
 }
 
 .icon-container > a {
